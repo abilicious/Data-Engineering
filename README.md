@@ -5,10 +5,13 @@ Source code for Development Project
 
 ## Structured Databases
 
-This desribes the storage of organised or structured data in a Database Management System (DBMS) Like mySQL, MS SQL Server, PostgreSQL.
-These data are also often relational, hennce the term relational databeses. What this means is that the tables are related
+This desribes the storage of organised or structured data in Relational Database Management Systems (RDBMS) Like mySQL, MS SQL Server, PostgreSQL, e.t.c..
+Data is organised in a two dimensional tables, where these tables are often relational, hence the term relational databeses. 
+
+What this means is that the tables are related. Functions like Create, Read, Update and Delete are some of the basic functions in perfomed by RDBMS 
 
 
+![alt text](C:/Users/ABIOLA/Downloads/Capture.png "relational DB")
 
 ## Un Structured or Semi Structured Databases
 It could also describe storage of non structured or Document data in NoSql  Databases like Mongo DB.
