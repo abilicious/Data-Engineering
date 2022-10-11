@@ -12,7 +12,7 @@ What this means is that the tables are related. Functions like Create, Read, Upd
 ![relational1](https://user-images.githubusercontent.com/114623144/194963864-2e4c379c-ca55-4eff-ab98-b13d037e78ec.png)
 
 ![alt text](C:/Users/ABIOLA/Downloads/Capture.png "relational DB")
-
+abc
 ## Un Structured or Semi Structured Databases
 It could also describe storage of non structured or Document data in NoSql  Databases like Mongo DB.
 
