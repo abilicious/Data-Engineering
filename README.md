@@ -4,8 +4,9 @@
 
 ## Relational Databases :computer:
 
-This desribes the storage of organised or structured data in Relational Database Management Systems (RDBMS) Like mySQL, MS SQL Server, PostgreSQL, e.t.c..
-Data is organised in a two dimensional tables, where these tables are often relational, hence the term relational databeses. 
+This desribes a databse that stores organised or structured data in a Database also known as Relational Database Management Systems (RDBMS) Like mySQL, MS SQL Server, PostgreSQL, e.t.c.. 
+
+RDBMS is based on relational model which stores data in two dimensional format where tables of data are represented in rows and columns. Each row in a table represents a single record with Unique ID called Key. A column is a field of attribute or an item of information. A row is a meaningful and consistent way of combining and information about something. 
 
 What this means is that the tables are related. Functions like Create, Read, Update and Delete are some of the basic functions in perfomed by RDBMS 
 
