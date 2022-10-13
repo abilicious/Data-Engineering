@@ -1,6 +1,6 @@
 # Data-Engineering
 
-## Relational Databases :computer:
+## Relational Databases 💻
 
 This desribes a databse that stores organised or structured data in a Relational Database Management Systems or RDBMS. Examples of such Databases are mySQL, MS SQL Server, PostgreSQL, e.t.c.. 
 
@@ -34,7 +34,7 @@ Functions like Create, Read, Update and Delete are some of the basic functions i
 📘 Determine the purpose of your Database.
 
      ✔️ This is how you intend to use the database. You could elicit requirement or conduct similar exercise
-      to determine its use. Example: a Customer database that keeps a list of customer related information
+      to determine its use. Example: a Customer database that keeps a list of customer related information.
 
 📘 Gather and organize all forms of information required
 
