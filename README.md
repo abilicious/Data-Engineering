@@ -1,10 +1,13 @@
-# Data-Engineering
+# Databases
 
-## Relational Databases 💻
+## Relational Databases ![mysqldownload](https://user-images.githubusercontent.com/114578618/195858167-b4ae6082-d376-44f2-951e-f762d1d07594.png)![ms3download](https://user-images.githubusercontent.com/114578618/195859896-602ebada-d592-4421-8558-b38c4f4f6e9b.png)![pgsdownload](https://user-images.githubusercontent.com/114578618/195858073-de817956-6540-423b-ad0c-d0c9f196539d.png)
 
-This desribes a databse that stores organised or structured data in a Relational Database Management Systems or RDBMS. Examples of such Databases are mySQL, MS SQL Server, PostgreSQL, e.t.c.. 
+Relational databeses are softwares used to create databases and all associated objects. 
 
-RDBMS is based on relational model which stores data in two dimensional format where tables of data are represented in rows and columns. Each row in a table represents a single record with unique ID called Key. A column represents a field of attribute or an item of information. A record therefore is a meaningful and consistent way of combining information about something. 
+Databases are efficient ways of storing and managing data. The data generated could either be manual or automatically generated through a process.
+
+Databases store organised or structured data using relational model which stores data in two dimensional format like tables. These type of data are are represented in rows and columns. 
+Each row in a table represents a single record with unique ID called Key and a column represents a field of attribute or an item of information. A record therefore is a meaningful and consistent way of combining information about something.
 
 Functions like Create, Read, Update and Delete are some of the basic functions in perfomed in a Relational Database Management System 
 
