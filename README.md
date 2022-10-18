@@ -1,28 +1,32 @@
 
+# Databases
+
 ## Relational Databases ![mysqldownload](https://user-images.githubusercontent.com/114578618/195858167-b4ae6082-d376-44f2-951e-f762d1d07594.png)![ms3download](https://user-images.githubusercontent.com/114578618/195859896-602ebada-d592-4421-8558-b38c4f4f6e9b.png)![pgsdownload](https://user-images.githubusercontent.com/114578618/195858073-de817956-6540-423b-ad0c-d0c9f196539d.png)
 
-Relational databases are softwares used to create databases. 
+Databases are efficient ways of storing and managing data. Databases store organised or structured data using relational model which stores data in two dimensional format like tables, represented in rows and columns
 
-Databases are efficient ways of storing and managing data. These data could either be generated manually or automatically through some process.
+Each row in a table represents a single record with unique ID called Key. A record is a meaningful and consistent way of combining information about something.  
+A column represents a field of attribute or an item of information. 
 
-Databases essentially store organised, structured data using relational model. This models store data in two dimensional format like tables where data is represented in rows and columns. 
+Relational database management systems also known as RDBMS are softwares used to create and manage databases.
 
-A column on a database table represents an item of information or a field of attribute. A row represents a single record with unique ID called Key. Each record therefore is a meaningful and consistent way of combining information about something.
-
-Structured Query Language also called SQL is the Language used to talk to databases. Some of the functions like create, read, update and delete are some of the basic functions perfomed within the Relational Database Management System 
+Structured Query Language also called SQL is the Language used to talk to databases. Functions like Create, Read, Update and Delete are some of the basic functions in perfomed in a Relational Database Management System.
 
 Data in a database could be consumed by applications ( e.g Reporting Application like Power BI) or directly queried by people
+
+Examples of relational database management system are: Microsoft sql server, mySql, etc..
+
 
                      Diagram of a relational model
 ![relational1](https://user-images.githubusercontent.com/114623144/194963864-2e4c379c-ca55-4eff-ab98-b13d037e78ec.png)
 
 ## Databsase Design 🖌️
 
-This is the process of producing a detailed data model of the database. 
+This is the process of organizing and classifying data and indentifying relationships with a view to producing a detailed data model of the database. 
 
 **A good Database design ensures the following:**
 
- ✅ No duplicate information or duplication is kept very minimal. 
+ ✔️ No duplicate information or duplication is kept very minimal. 
  
       Duplicate data also called redundant data is bad. It wastes spaces and increases the posibility of  errors
 
