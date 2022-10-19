@@ -20,46 +20,70 @@ Examples of relational database management system are: Microsoft sql server, myS
                      Diagram of a relational model
 ![relational1](https://user-images.githubusercontent.com/114623144/194963864-2e4c379c-ca55-4eff-ab98-b13d037e78ec.png)
 
-## Databsase Design 🖌️
+## What is a schema 
 
-This is the process of organizing and classifying data and indentifying relationships with a view to producing a detailed data model of the database. 
+This is the way a database is structured. Relational databases have schema's while non relational databases like NoSql databases e.g. MongoDB are schema-less.
+schema's are a formal description of the organisation and structure of data in a database. This inclusdes definition of table, columns, data types, indexes, constraints, etc.
+Schemas are important for consistency and efficiency. Databases work With schema's
 
-**A good Database design ensures the following:**
+## How to create a table with its schema
 
- ✔️ No duplicate information or duplication is kept very minimal. 
+Typically a schema will be created as part of a table creation process within the RDBMS using SQL language.
+Schema of a table is the structure of the table, data types and contstraints
+
+
+                    CREATE TABLE Persons (
+                     PersonID int,
+                     LastName varchar(255),
+                     FirstName varchar(255),
+                     Address varchar(255),
+                     City varchar(255)
+                    );
+
+## How to design a databsase  🖌️
+
+A database design is the process of organizing, classifying data and indentifying relationships with a view to producing a detailed data model of the database. 
+
+## What does a good database look like
+
+ ✔️ A good database is one with no duplicate information or duplication is to kept to very minimum. 
  
-      Duplicate data also called redundant data is bad. It wastes spaces and increases the posibility of  errors
+      Duplicate data also called redundant data is bad with databases. It wastes spaces and increases the posibility
+      of  errors
 
-✅ Information is divided into subject areas.
+✔️ A good database has Information sub divided into broad subject areas.
 
       Example subject areas are: Product, Customer. This will help to reduce data redundancy
 
-✅ Accomodate data processing and reporting needs 
+✔️ A good database accomodates data processing and reporting needs.
+      
+      A good way of tackling this will be to plan ahead the purpose of the database, ensuring all
+      reporting needs are met
 
-✅ Ensure correctness and completeness of information. 
+✔️ A good database ensure correctness and completeness of information. 
 
-   If your Database does not contain correct information, 
-   the results is that any report that pulls information from it will also be incorrect
+    This is important because if the database does not contain correct information, 
+    Any report that pulls information from it will also be incorrect.
   
-##  Design Process
+##  What is the design process
 
-📘 Determine the purpose of your Database.
+📣 Determine the purpose of your Database.
 
      ✔️ This is how you intend to use the database. You could elicit requirement or conduct similar exercise
       to determine its use. Example: a Customer database that keeps a list of customer related information.
 
-📘 Gather and organize all forms of information required
+📣 Gather and organize all forms of information required
 
       ✔️ After you have determined the purpose of your database, you need to gather data needed to be
       stored on the database. Consider reporting requirements, user requirements etc.. and what other information
       you will need to satisfy these
 
-📘 Divide information into tables
+📣 Divide information into tables
 
       ✔️ Divide data into subject based tables. Choose major entities for subjects
 
 
-📘 Specify primary keys - Choose a column or several columns to uniquly identify each rows
+📣 Specify primary keys - Choose a column or several columns to uniquly identify each rows
   
     ✔️ Primary Keys:
     
@@ -86,7 +110,7 @@ This is the process of organizing and classifying data and indentifying relation
     
          These are primary keys comprising multiple columns used to identify a record uniquely
 
-📘 Set up table relationships
+📣 Set up table relationships
 
     By creating relationships between the tables, we can bring varying information together in meaningful ways.
     The different relationships are detailed below:
@@ -97,8 +121,8 @@ This is the process of organizing and classifying data and indentifying relation
             multiple Employees on the 'Employee Table'
         
     ✔️ One - to - One
-            This is when Tables have a single relationships with each other. For example a 'Product Table' having productID as its 
-            Primary Key will have a one to one relationship to a Product suplement table called 'Product Details Table'
+            This is when Tables have a single relationships with each other. For example a 'Product Table' having productID
+            as its Primary Key will have a one to one relationship to a Product suplement table called 'Product Details Table'
             
     ✔️ Many - to - Many
             This speaks about two tables with multiple references to each other. Example: on a "Product Order" Database, 
@@ -106,7 +130,7 @@ This is the process of organizing and classifying data and indentifying relation
             on the 'Product Table'can appear on many orders on the 'Orders Table'
         
 
-📘 Apply Normalisation rules
+📣 Apply Normalisation rules
 
    Normalisation is a process of efficiently organising data in a database to eliminate redundancy and inconsistent dependencies. 
    This includes creating Tables and establishing relationmships between these tables.
@@ -156,17 +180,3 @@ It could also describe storage of non structured or Document data in NoSql  Data
 
 
 
-
-To create anchor links that jump down to different sections of a README (as in an interactive table of contents), first create a heading:
-#Real Cool Heading
-
-The anchor link for that heading is the lowercase heading name with dashes where there are spaces. You can always get the anchor name by visiting the README on Github.com and clicking on the anchor that appears when you hover to the left of the heading. Copy everything starting at the #:
-#real-cool-heading
-
-Wherever you want to link to your Real Cool Heading section, put your desired text in brackets, followed by the anchor link in parentheses:
-[Go to Real Cool Heading section](#real-cool-heading)
-
-See! Easy: Go to Real Cool Heading section
-
-#Real Cool Heading
-This is a real cool heading with some real cool content.
