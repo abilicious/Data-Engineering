@@ -38,9 +38,6 @@ A colletion of related data held in rows and columns. Data within databases are 
                      City varchar(255)
                     );
 
-## How to design a databsase  🖌️
-
-A database design is the process of organizing, classifying and indentifying relationships between data with a view to producing a detailed data model of the database. 
 
 ## What does a good database look like
 
@@ -63,7 +60,9 @@ A database design is the process of organizing, classifying and indentifying rel
     This value of a database is in the information it holds. If a database does not contain correct
     information, any report that pulls information from it will also be incorrect.
   
-##  Database design
+##  Database design 🖌️
+
+Database design is the process of organizing, classifying and indentifying relationships between data with a view to producing a detailed data model of the database. 
 
 ✔️ Determine the purpose of your Database.
 
@@ -186,7 +185,7 @@ A database design is the process of organizing, classifying and indentifying rel
   
 ##  ACID properties and RDBMS
 
-Four cruial properties define relational database transations: atomiity, onsisteny, isolation and durability - Typially alled ACID
+Four cruial properties define relational database transations: atomicity, consisteny, isolation and durability - Typially called ACID
 #### 1. Atomicity
        Defines all the elements that make up a complete database transaction.
 #### 2.  Consistency
