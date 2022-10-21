@@ -22,7 +22,7 @@ Examples of relational database management system are: Microsoft sql server, myS
 
 ## What is a schema 
 
-This is the way a database is structured. schema's are a formal description of the organisation and structure of data in a database. This includes definition of tables, views, columns, data types, indexes, constraints,relationships, etc. Schemas are important for consistency and efficiency. Databases work With schema's.
+This is the way a database is structured. Schema's are a formal description of the organisation and structure of data in a database. This includes definition of tables, views, columns, data types, indexes, constraints,relationships, etc. Schemas are important for consistency and efficiency. Databases work With schema's.
 
 Relational databases have schema's while non relational databases like NoSql databases e.g. MongoDB are schema-less.
 
