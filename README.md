@@ -186,14 +186,14 @@ Database design is the process of organizing, classifying and indentifying relat
 ##  ACID properties and RDBMS
 
 Four cruial properties define relational database transations: atomicity, consisteny, isolation and durability - Typially called ACID
-#### 1. Atomicity
-       Defines all the elements that make up a complete database transaction.
-#### 2.  Consistency
-       Defines the rules for maintaining data points in a correct state after a transaction.
-#### 3.  Isolation
-       Keeps the effct of a transaction invisible to pothers until it is committed to avoid confusion.
-#### 4.  Durability
-        Ensures the data changes becomes permanent once the transaction is committed.
+
+ ✔️ Atomicity - Defines all the elements that make up a complete database transaction.
+ 
+ ✔️ Consistency - Defines the rules for maintaining data points in a correct state after a transaction.
+ 
+ ✔️ Isolation - Keeps the effct of a transaction invisible to pothers until it is committed to avoid confusion.
+ 
+ ✔️ Durability - Ensures the data changes becomes permanent once the transaction is committed.
 
 
 
