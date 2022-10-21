@@ -186,7 +186,7 @@ A database design is the process of organizing, classifying and indentifying rel
   
 
 
-## NoSQL / Un Structured / Semi Structured Databases ![MongoDB_Logo svg (1)](https://user-images.githubusercontent.com/114623144/197126191-c019ad97-872b-4dec-a16b-09f1b4a19063.png)
+## NoSQL / Unstructured / Semi Structured Databases ![MongoDB_Logo svg (1)](https://user-images.githubusercontent.com/114623144/197126191-c019ad97-872b-4dec-a16b-09f1b4a19063.png)
 
 
 NoSQL Database is a non-relational Data Management System that does not require a fixed schema. It avoids joins and is easy to scale. 
