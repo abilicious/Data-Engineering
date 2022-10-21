@@ -46,35 +46,35 @@ A database design is the process of organizing, classifying and indentifying rel
 
  ✔️ A good database is one with no duplicate information or duplication is to kept to very minimum. 
  
-      Duplicate data also called redundant data is bad with databases. It wastes spaces and
+      Duplicate data also called redundant data is bad for databases. It wastes spaces and
       increases the posibility of errors
 
 ✔️ A good database has Information sub divided into broad subject areas.
 
-      Example subject areas are: Product, Customer. This will help to reduce data redundancy
+      Example subject areas are: Product, Customer.etc.. This will help to reduce data redundancy
 
 ✔️ A good database accomodates data processing and reporting needs.
       
-      A good way of tackling this will be to plan ahead the purpose of the database, ensuring all
+      A good way of tackling this will be to plan ahead for the purpose of the database, ensuring all
       reporting needs are met
 
 ✔️ A good database ensure correctness and completeness of information. 
 
-    This is important because if the database does not contain correct information, 
-    Any report that pulls information from it will also be incorrect.
+    This value of a database is in the information it holds. If a database does not contain correct information, 
+    any report that pulls information from it will also be incorrect.
   
 ##  Database design
 
 ✔️ Determine the purpose of your Database.
 
-      This is how you intend to use the database. You could elicit requirement or conduct similar exercise
-      to determine its use case. Example use case: a Customer database that keeps a list of customer related information.
+      This is how you intend to use the database. You could elicit requirement to determine its use case. 
+      Example use case: A Customer database that keeps a list of customer related information.
 
 ✔️ Gather and organize all forms of information required
 
-      After you have determined the purpose of your database, you need to gather data needed to be
-      stored on the database. Consider reporting requirements, user requirements etc.. and what other information
-      you will need to satisfy these
+      After you have determined the purpose of your database, you need to gather all data needed to be
+      stored on the database. Consider your reporting requirements, all user requirements and any other related
+      data needs
 
 ✔️ Divide information into tables
 
@@ -109,7 +109,7 @@ A database design is the process of organizing, classifying and indentifying rel
     
          These are primary keys comprising multiple columns used to identify a record uniquely
 
-✔️ Specify table cardinalities or table relationships
+✔️ Specify table cardinalities or relationships
 
    By creating relationships between the tables, we can bring varying information together in meaningful ways.
    The different relationships are detailed below:
@@ -145,7 +145,7 @@ A database design is the process of organizing, classifying and indentifying rel
     Product on the 'Product Table'can appear on many orders on the 'Orders Table'
         
 
-✔️ Normalisation - Applying Normalisation rules
+✔️ Normalisation - Apply normalisation rules
 
    Normalisation is a process of efficiently organising data in a database to eliminate redundancy and inconsistent dependencies. 
    This includes creating Tables and establishing relationmships between these tables.
@@ -155,7 +155,7 @@ A database design is the process of organizing, classifying and indentifying rel
    If a database conforms to the first normal form, then the database is said to be in the first normal form
    If it adheres to the first three normal forms, the database is considered to be in the third normal form.
    
-   There are about 5 Normal forms, but only the first three are goiing to be disussed here. 
+   There are about 5 Normal forms, but only the first three are goiing to be described here. 
    
   1.  First normal form (1NF)
          - Each cell should contain a single value. 
@@ -264,88 +264,88 @@ Data replication may not be instantaneous as some copies will be updated immedia
 
 ## BASE: Basically Available, Soft state, Eventual consistency
 
-•	Basically, available means DB is available all the time as per CAP theorem
+- 	Basically, available means DB is available all the time as per CAP theorem
 
-•	Soft state means even without an input; the system state may change
+- 	Soft state means even without an input; the system state may change
 
-•	Eventual consistency means that the system will become consistent over time
+-  	Eventual consistency means that the system will become consistent over time
 
 ![image](https://user-images.githubusercontent.com/114623144/197130035-f0304c65-340c-4fc8-a654-9601e4200b7e.png)
 
  
 ## Advantages of NoSQL
 
-•	Can be used as Primary or Analytic Data Source
+  -	Can be used as Primary or Analytic Data Source
 
-•	Big Data Capability
+  -	Big Data Capability
 
-•	No Single Point of Failure
+  -	No Single Point of Failure
 
-•	Easy Replication
+  -	Easy Replication
 
-•	No Need for Separate Caching Layer
+  -	No Need for Separate Caching Layer
 
-•	It provides fast performance and horizontal scalability.
+  -	It provides fast performance and horizontal scalability.
 
-•	Can handle structured, semi-structured, and unstructured data with equal effect
+  -	Can handle structured, semi-structured, and unstructured data with equal effect
 
-•	Object-oriented programming which is easy to use and flexible
+  -	Object-oriented programming which is easy to use and flexible
 
-•	NoSQL databases don’t need a dedicated high-performance server
+  -	NoSQL databases don’t need a dedicated high-performance server
 
-•	Support Key Developer Languages and Platforms
+  -	Support Key Developer Languages and Platforms
 
-•	Simple to implement than using RDBMS
+  -	Simple to implement than using RDBMS
 
-•	It can serve as the primary data source for online applications.
+  -	It can serve as the primary data source for online applications.
 
-•	Handles big data which manages data velocity, variety, volume, and complexity
+  -	Handles big data which manages data velocity, variety, volume, and complexity
 
-•	Excels at distributed database and multi-data center operations
+  -	Excels at distributed database and multi-data center operations
 
-•	Eliminates the need for a specific caching layer to store data
+  -	Eliminates the need for a specific caching layer to store data
 
-•	Offers a flexible schema design which can easily be altered without downtime or service disruption
+  -	Offers a flexible schema design which can easily be altered without downtime or service disruption
 
-Disadvantages of NoSQL
+## Disadvantages of NoSQL
 
-•	No standardization rules
+  -	No standardization rules
 
-•	Limited query capabilities
+  -	Limited query capabilities
 
-•	RDBMS databases and tools are comparatively mature
+  -	RDBMS databases and tools are comparatively mature
 
-•	It does not offer any traditional database capabilities, like consistency when multiple transactions are performed simultaneously.
+  -	It does not offer any traditional database capabilities, like consistency when multiple transactions are performed simultaneously.
 
-•	When the volume of data increases it is difficult to maintain unique values as keys become difficult
+  -	When the volume of data increases it is difficult to maintain unique values as keys become difficult
 
-•	Doesn’t work as well with relational data
+  -	Doesn’t work as well with relational data
 
-•	The learning curve is stiff for new developers
+  -	The learning curve is stiff for new developers
 
-•	Open source options so not so popular for enterprises.
+  -	Open source options so not so popular for enterprises.
 
-Summary
+## Summary
 
-•	NoSQL is a non-relational DMS, that does not require a fixed schema, avoids joins, and is easy to scale
+  -	NoSQL is a non-relational DMS, that does not require a fixed schema, avoids joins, and is easy to scale
 
-•	The concept of NoSQL databases became popular with Internet giants like Google, Facebook, Amazon, etc. who deal with huge volumes of data
+  -	The concept of NoSQL databases became popular with Internet giants like Google, Facebook, Amazon, etc. who deal with huge volumes of data
 
-•	In the year 1998- Carlo Strozzi use the term NoSQL for his lightweight, open-source relational database
+  -	In the year 1998- Carlo Strozzi use the term NoSQL for his lightweight, open-source relational database
 
-•	NoSQL databases never follow the relational model it is either schema-free or has relaxed schemas
+  -	NoSQL databases never follow the relational model it is either schema-free or has relaxed schemas
 
-•	Four types of NoSQL Database are 1). Key-value Pair Based 2). Column-oriented Graph 3). Graphs based 4). Document-oriented
+  -	Four types of NoSQL Database are 1). Key-value Pair Based 2). Column-oriented Graph 3). Graphs based 4). Document-oriented
 
-•	NOSQL can handle structured, semi-structured, and unstructured data with equal effect
+  -	NOSQL can handle structured, semi-structured, and unstructured data with equal effect
 
-•	CAP theorem consists of three words Consistency, Availability, and Partition Tolerance
+  -	CAP theorem consists of three words Consistency, Availability, and Partition Tolerance
 
-•	BASE stands for Basically Available, Soft state, Eventual consistency
+  -	BASE stands for Basically Available, Soft state, Eventual consistency
 
-•	The term “eventual consistency” means to have copies of data on multiple machines to get high availability and scalability
+  -	The term “eventual consistency” means to have copies of data on multiple machines to get high availability and scalability
 
-•	NOSQL offer limited query capabilities
+  -	NOSQL offer limited query capabilities
 
 
 
