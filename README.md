@@ -140,9 +140,9 @@ A database design is the process of organizing, classifying and indentifying rel
   
   ![3](https://user-images.githubusercontent.com/114578618/196768663-e3ba642c-7ee4-43c0-967b-62237b7f5062.png)
   
-    This speaks about two tables with multiple references to each other. Example: on a "Product Order" Database, 
-    An 'Order Table' can have single order with more than one product on the 'Product Table' and also a single 
-    Product on the 'Product Table'can appear on many orders on the 'Orders Table'
+    This speaks about two tables with multiple references to each other. Example: on a "Product Order"
+    Database. An 'Order Table' can have single order with more than one product on the 'Product Table'
+    and also a single Product on the 'Product Table'can appear on many orders on the 'Orders Table'
         
 
 ✔️ Normalisation - Apply normalisation rules
