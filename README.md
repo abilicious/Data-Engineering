@@ -184,6 +184,19 @@ A database design is the process of organizing, classifying and indentifying rel
                inter-column relationships in some instances might degrade performance. Ensure you are fully aware of your
                design decisions and document it
   
+##  ACID properties and RDBMS
+
+Four cruial properties define relational database transations: atomiity, onsisteny, isolation and durability - Typially alled ACID
+#### 1. Atomicity
+       Defines all the elements that make up a complete database transaction.
+#### 2.  Consistency
+       Defines the rules for maintaining data points in a correct state after a transaction.
+#### 3.  Isolation
+       Keeps the effct of a transaction invisible to pothers until it is committed to avoid confusion.
+#### 4.  Durability
+        Ensures the data changes becomes permanent once the transaction is committed.
+
+
 
 
 ## NoSQL / Unstructured / Semi Structured Databases ![MongoDB_Logo svg (1)](https://user-images.githubusercontent.com/114623144/197126191-c019ad97-872b-4dec-a16b-09f1b4a19063.png)
@@ -226,7 +239,7 @@ Traditional RDBMS uses SQL syntax to store and retrieve data for further insight
    - Often ACID concept can be sacrificed for scalability and throughput
    - Mostly no synchronous replication between distributed nodes Asynchronous Multi-Master Replication, peer-to-peer, HDFS Replication
    - Only providing eventual consistency
- 
+   
  
  ![image](https://user-images.githubusercontent.com/114623144/197124279-053e13c0-fd18-4213-9674-502cf032278e.png)
 
