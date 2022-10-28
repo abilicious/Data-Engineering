@@ -242,6 +242,53 @@ Traditional RDBMS uses SQL syntax to store and retrieve data for further insight
  
  ![image](https://user-images.githubusercontent.com/114623144/197124279-053e13c0-fd18-4213-9674-502cf032278e.png)
 
+## NoSQL Database Types
+
+NoSQL Databases are mainly categorized into four types: Key-value pair, Column-oriented, Graph-based and Document-oriented. 
+Every category has its unique attributes and limitations. None of the above-specified database is better to solve all the problems. Users should select the database based on their product needs.
+
+
+•	Key-value Pair Based
+
+•	Column-oriented Graph
+
+•	Graphs based
+
+•	Document-oriented
+ 
+ 
+✔️Key Value Pair Based
+
+Data is stored in key/value pairs. It is designed in such a way to handle lots of data and heavy load.
+Key-value pair storage databases store data as a hash table where each key is unique, and the value can be a JSON, BLOB(Binary Large Objects), string, etc.
+ 
+It is one of the most basic NoSQL database example. This kind of NoSQL database is used as a collection, dictionaries, associative arrays, etc. Key value stores help the developer to store schema-less data. They work best for shopping cart contents.
+Redis, Dynamo, Riak are some NoSQL examples of key-value store DataBases. 
+
+✔️ Column-based
+
+Column-oriented databases work on columns and are based on BigTable paper by Google. Every column is treated separately. Values of single column databases are stored contiguously.
+ 
+They deliver high performance on aggregation queries like SUM, COUNT, AVG, MIN etc. as the data is readily available in a column.
+Column-based NoSQL databases are widely used to manage data warehouses,  CRM, Library card catalogs,
+HBase, Cassandra, HBase, Hypertable are NoSQL query examples of column based database.
+
+✔️ Document-Oriented
+
+Document-Oriented NoSQL DB stores and retrieves data as a key value pair but the value part is stored as a document. The document is stored in JSON or XML formats. The value is understood by the DB and can be queried.
+ 
+In the diagram above left you can see we have rows and columns, and in the right, we have a document database which has a similar structure to JSON. Now for the relational database, you have to know what columns you have and so on. However, for a document database, you have data store like JSON object. You do not require to define which make it flexible.
+The document type is mostly used for CMS systems, blogging platforms, real-time analytics & e-commerce applications. It should not be used for complex transactions which require multiple operations or queries against varying aggregate structures.
+Amazon SimpleDB, CouchDB, MongoDB, Riak, Lotus Notes, MongoDB, are popular Document originated DBMS systems.
+
+✔️ Graph-Based
+
+A graph type database stores entities as well the relations amongst those entities. The entity is stored as a node with the relationship as edges. An edge gives a relationship between nodes. Every node and edge has a unique identifier.
+ 
+Compared to a relational database where tables are loosely connected, a Graph database is a multi-relational in nature. Traversing relationship is fast as they are already captured into the DB, and there is no need to calculate them.
+Graph base database mostly used for social networks, logistics, spatial data.
+Neo4J, Infinite Graph, OrientDB, FlockDB are some popular graph-based databases.
+
 
 ## Query Mechanism tools for NoSQL
 
